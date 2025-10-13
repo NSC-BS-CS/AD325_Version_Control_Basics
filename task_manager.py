@@ -20,7 +20,7 @@ class TaskManager:
         self.save_tasks()
 
     def view_tasks(self):
-        for index, task in enumerate(self.tasks, start=10):
+        for index, task in enumerate(self.tasks, start=1):
             print(f"Task {index}: {task}")
 
     def delete_task(self, index):
